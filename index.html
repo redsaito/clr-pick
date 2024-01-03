@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Picker</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container-1">
+      <h1>
+        RGB(<span class="value">x</span>, <span class="value">x</span>,
+        <span class="value">x</span>)
+      </h1>
+    </div>
+    <div class="container-2">
+      <div class="container-3">
+        <label for="red">RED:</label>
+        <input type="range" id="red" name="red" min="0" max="255" />
+        <span class="clr">x</span>
+      </div>
+      <div class="container-3">
+        <label for="green">GREEN:</label>
+        <input type="range" id="green" name="green" min="0" max="255" />
+        <span class="clr">x</span>
+      </div>
+      <div class="container-3">
+        <label for="blue">BLUE:</label>
+        <input type="range" id="blue" name="blue" min="0" max="255" />
+        <span class="clr">x</span>
+      </div>
+    </div>
+    <footer>
+      <script src="./script.js"></script>
+    </footer>
+  </body>
+</html>
